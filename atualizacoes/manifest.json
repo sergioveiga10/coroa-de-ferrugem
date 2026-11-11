@@ -1,0 +1,6 @@
+{
+  "latest": "0.14.0",
+  "base": "0.14.0",
+  "installer": "https://github.com/sergioveiga10/coroa-de-ferrugem/raw/main/instalador/CoroaDeFerrugem_Instalador_0.14.0.exe",
+  "patches": []
+}
