@@ -1,5 +1,5 @@
 {
-  "latest": "0.15.21",
+  "latest": "0.15.22",
   "base": "0.14.0",
   "installer": "https://github.com/sergioveiga10/coroa-de-ferrugem/raw/main/instalador/CoroaDeFerrugem_Instalador_0.14.0.zip",
   "patches": [
@@ -306,6 +306,14 @@
       "url": "https://raw.githubusercontent.com/sergioveiga10/coroa-de-ferrugem/main/atualizacoes/correcao_0.15.21.pck",
       "sha256": "35391576935b0baaf749329b687557013234b405da46a6daed8563f488496571",
       "bytes": 2596520
+    },
+    {
+      "from": "0.15.21",
+      "to": "0.15.22",
+      "file": "correcao_0.15.22.pck",
+      "url": "https://raw.githubusercontent.com/sergioveiga10/coroa-de-ferrugem/main/atualizacoes/correcao_0.15.22.pck",
+      "sha256": "28996f5cefe2de00f450cbcc10d48db73213e4ad0184e3f16f582669552f1990",
+      "bytes": 27764
     }
   ]
 }
