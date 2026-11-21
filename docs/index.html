@@ -2,6 +2,8 @@
 <html lang="en">
 	<head>
 <meta http-equiv="Cache-Control" content="no-cache">
+<script>/* celular: desenha no máximo em 2x a densidade (iPhone é 3x): tela 2,25x menos pixels, bem menos memória de vídeo */
+(function(){try{var r=window.devicePixelRatio||1;if(/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)&&r>2){Object.defineProperty(window,"devicePixelRatio",{get:function(){return 2;}});}}catch(e){}})();</script>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
 		<title>A Coroa dos Dois Reinos</title>
@@ -112,7 +114,7 @@ body {
 
 		<script src="index.js"></script>
 		<script>
-const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","mainPack":"jogo-0.15.24.pck","experimentalVK":false,"fileSizes":{"jogo-0.15.24.pck":47192600,"index.wasm":39514754},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
+const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","mainPack":"jogo-0.15.25.pck","experimentalVK":false,"fileSizes":{"jogo-0.15.25.pck":41632884,"index.wasm":39514754},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
 const GODOT_THREADS_ENABLED = false;
 const engine = new Engine(GODOT_CONFIG);
 
